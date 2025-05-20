@@ -137,6 +137,7 @@ public class RNInAppBrowser {
         options.getBoolean(KEY_DEFAULT_SHARE_MENU_ITEM)) {
       builder.addDefaultShareMenuItem();
     }
+    console.log('hello');
     if (options.hasKey(KEY_ANIMATIONS)) {
       final ReadableMap animations = options.getMap(KEY_ANIMATIONS);
       applyAnimation(context, builder, animations);
